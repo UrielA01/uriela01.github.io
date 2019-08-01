@@ -526,10 +526,11 @@ section{
     }
 
     .project-img{
-        height: 20%;
+        height: 15%;
         width: 85%;
     }
     .project-text{
+        height: 60%;
         left:50%;
         width: 70%;
     }
