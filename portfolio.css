@@ -491,6 +491,12 @@ section{
     #container {
         height: 70%;
     }
+    .row {
+        flex-direction: column;
+    }
+    .row .three{
+        margin-bottom: 10%;
+    }
 
 }
 
@@ -499,7 +505,7 @@ section{
   ##Screen = B/w 320px to 479px
 */
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (max-width: 480px) {
 
     body{
         font-size: 10px;
@@ -540,5 +546,8 @@ section{
 
     .row{
         flex-direction: column;
+    }
+    .row .three {
+        margin-bottom: 10%;
     }
 }
