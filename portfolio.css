@@ -108,6 +108,10 @@ main{
     margin-right: 5%;
 }
 
+#img-text-con a{
+    text-decoration: none;
+}
+
 #scrolling{
     display: flex;
     justify-content: center;
