@@ -534,7 +534,7 @@ section{
 @media (max-width: 480px) {
 
     body{
-        font-size: 8px !important;
+        font-size: 10px !important;
     }
 
     #main-nav ul {
