@@ -1,0 +1,1 @@
+$(document).ready(function(){$("a").on("click",function(o){if(""!==this.hash){o.preventDefault();var t=this.hash;$("html, body").animate({scrollTop:$(t).offset().top},900,function(){window.location.hash=t})}}),navigator.userAgent.toLowerCase().match(/(iPad|iPhone|iPod)/i)&&$("body").css("-webkit-overflow-scrolling","touch")});
