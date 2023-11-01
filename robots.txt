@@ -1,4 +1,0 @@
-User-agent: *
-Disallow: 
-Disallow: /fonts/
-Sitemap: https://uriela01.github.io/sitemap.xml

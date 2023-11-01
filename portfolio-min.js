@@ -1,1 +1,0 @@
-$(document).ready(function(){$("a").on("click",function(o){if(""!==this.hash){o.preventDefault();var i=this.hash;$("html, body").animate({scrollTop:$(i).offset().top},900,function(){window.location.hash=i})}}),navigator.userAgent.toLowerCase().match(/(iPad|iPhone|iPod)/i)&&$("body").css("-webkit-overflow-scrolling","touch"),$("#image").width(1.05*$("#image").height())});
